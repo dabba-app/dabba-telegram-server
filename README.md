@@ -40,17 +40,11 @@
 * ##### config.json:
 
 {
-
   "TELEGRAM_KEY": "xyz",
-  
   "DB_HOST": "0.0.0.0",
-  
   "DB_PORT": "27017",
-  
   "HOST": "0.0.0.0",
-  
   "PORT": "8000"
-  
 }
 
 
