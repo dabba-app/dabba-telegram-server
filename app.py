@@ -37,4 +37,4 @@ def index():
 routes.register_endpoints(app)
 
 if __name__ == '__main__':
-    app.run(debug=True, port=os.getenv('PORT', 8000), host=os.getenv('HOST', '0.0.0.0'), use_reloader=False)
+    app.run(debug=True, port=int(os.getenv('PORT', 8000)), host=os.getenv('HOST', '0.0.0.0'), use_reloader=False)
