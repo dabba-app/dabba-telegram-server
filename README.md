@@ -8,7 +8,7 @@
     
 * ##### Setup
     * `git clone https://github.com/dabba-app/telegram`
-    * `add a config.json file in root of project, or ping me to get it, as u might not know the `
+    * `add a config.json file in root of project, or ping me to get it`
     * `cd telegram`
     * `virtualenv venv`
     * `source venv/bin/activate`
@@ -36,3 +36,15 @@
         "USER": "piyush9620",
         "MSG":"1234"
     }
+    
+* ##### config.json:
+
+{
+  "TELEGRAM_KEY": "xyz",
+  "DB_HOST": "0.0.0.0",
+  "DB_PORT": "27017",
+  "HOST": "0.0.0.0",
+  "PORT": "8000"
+}
+
+
