@@ -1,2 +1,5 @@
 config.json
 *.pyc
+.idea
+venv
+config.json
