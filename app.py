@@ -6,6 +6,7 @@ from flask import (
     Flask,
     request,
     redirect,
+    jsonify
 )
 from flask_cors import CORS
 from api import routes
@@ -28,6 +29,10 @@ except Exception as e:
 app = Flask(__name__)
 app.debug = True
 CORS(app)
+
+@app.route('/', methods=['GET'])
+def index():
+    return jsonify({'message': 'dabba-telegram root'})
 
 routes.register_endpoints(app)
 
